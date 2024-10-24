@@ -1,0 +1,32 @@
+.ending__line{
+    margin-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h3{
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin:16px 0 40px 0 ;
+    }
+    button{
+        font-size: 18px;
+        font-weight: 500;
+        background-color: #000;
+        padding: 14px 30px;
+        color: #fff;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        &:hover{
+            box-shadow: 0px 0px 10px 5px #000;
+        }
+    }
+}
